@@ -1,0 +1,28 @@
+minCutPoint: 2 maxCutPoint: 5
+
+Padres
+
+Bankstown	Armidale	Bateau-Bay	    | Bega	Bathurst	  | Bidwill	Blackett	Ashfield	Bradbury	Airds	Albury	Batemans-Bay-Outreach	Bankstown	121.0206458472429
+Bega	Bidwill	Batemans-Bay-Outreach	| Airds	Albury	    | Ashfield	Bankstown	Blackett	Bradbury	Armidale	Bateau-Bay	Bathurst	Bega	121.11266050475253
+
+Hijos
+
+Bankstown	Armidale	Bateau-Bay	    | Airds	Albury	  | Bidwill	Blackett	Ashfield	Bradbury	Airds	Albury	Batemans-Bay-Outreach	Bankstown	0.0
+Bega	Bidwill	Batemans-Bay-Outreach	| Bega	Bathurst	| Ashfield	Bankstown	Blackett	Bradbury	Armidale	Bateau-Bay	Bathurst	Bega	0.0
+
+F1Extract = | Bega	Bathurst	  |
+F2Extract = | Airds	Albury	    |
+
+Error:
+
+Bankstown	Armidale	Bateau-Bay	    | Airds	Albury	  | Bidwill	Blackett	Ashfield	Bradbury	Airds	Albury	Batemans-Bay-Outreach	Bankstown	0.0
+
+Correccion (Aun tiene 1 error mas):
+
+Bankstown	Armidale	Bateau-Bay	    | Airds	Albury	  | Bidwill	Blackett	Ashfield	Bradbury	Bega	Albury	Batemans-Bay-Outreach	Bankstown	0.0
+
+Correccion:
+
+Bankstown	Armidale	Bateau-Bay	    | Airds	Albury	  | Bidwill	Blackett	Ashfield	Bradbury	Bega	Bathurst	Batemans-Bay-Outreach	Bankstown	0.0
+
+

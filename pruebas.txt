@@ -1,0 +1,91 @@
+minCutPoint: 0 maxCutPoint: 3
+
+Padres:
+
+Airds	    | Albury	Ashfield	    | Bradbury	Bathurst	Bateau-Bay	Armidale	Batemans-Bay-Outreach	Bankstown	Airds	56.085895795438425
+Bradbury	| Bankstown	Bateau-Bay	| Airds	Albury	Batemans-Bay-Outreach	Bathurst	Ashfield	Armidale	Bradbury	58.90810022739837
+
+Hijos sin verificar:
+
+Airds	    | Bankstown	Bateau-Bay	| Bradbury	Bathurst	Bateau-Bay	Armidale	Batemans-Bay-Outreach	Bankstown	Airds	0.0
+Bradbury	| Albury	Ashfield	    | Airds	Albury	Batemans-Bay-Outreach	Bathurst	Ashfield	Armidale	Bradbury	0.0
+
+Evolucion Hijo 1:
+
+Airds	| Bankstown	Bateau-Bay	| Bradbury	Bathurst	Bateau-Bay	Armidale	Batemans-Bay-Outreach	Albury	Airds	0.0
+
+Evolucion Hijo 1:
+
+Airds	| Bankstown	Bateau-Bay	| Bradbury	Bathurst	Ashfield	Armidale	Batemans-Bay-Outreach	Albury	Airds	0.0
+
+Evolucion Hijo 2:
+
+Bradbury	| Albury	Ashfield	| Airds	Bankstown	Batemans-Bay-Outreach	Bathurst	Ashfield	Armidale	Bradbury	0.0
+
+Evolucion Hijo 2:
+
+Bradbury	| Albury	Ashfield	| Airds	Bankstown	Batemans-Bay-Outreach	Bathurst	Bateau-Bay	Armidale	Bradbury	0.0
+
+Hijos con cromosomas correjidos
+
+Airds	    | Bankstown	Bateau-Bay	| Bradbury	Bathurst	Ashfield	Armidale	Batemans-Bay-Outreach	Albury	Airds	0.0
+Bradbury	| Albury	Ashfield	    | Airds	Bankstown	Batemans-Bay-Outreach	Bathurst	Bateau-Bay	Armidale	Bradbury	0.0
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+minCutPoint: 1 maxCutPoint: 4
+
+Padres:
+
+Airds	Bathurst	    | Bega	Bankstown	                | Batemans-Bay-Outreach	Blackett	Ashfield	Bradbury	Armidale	Bateau-Bay	Bidwill	Albury	Airds	123.232313236885
+Bankstown	Bradbury	| Batemans-Bay-Outreach	Ashfield	| Bidwill	Bathurst	Blackett	Bega	Bateau-Bay	Albury	Airds	Armidale	Bankstown	127.63351293793997
+
+Hijos sin verificar:
+
+Airds	Bathurst	    | Batemans-Bay-Outreach	Ashfield	  | Batemans-Bay-Outreach	Blackett	Ashfield	Bradbury	Armidale	Bateau-Bay	Bidwill	Albury	Airds	0.0
+Bankstown	Bradbury	| Bega	Bankstown	                  | Bidwill	Bathurst Blackett	Bega	Bateau-Bay	Albury	Airds	Armidale	Bankstown	0.0
+
+Evolucion Hijo 1:
+
+Airds	Bathurst	| Batemans-Bay-Outreach	Ashfield	| Bega	Blackett	Ashfield	Bradbury	Armidale	Bateau-Bay	Bidwill	Albury	Airds	0.0
+
+Evolucion Hijo 1:
+
+Airds	Bathurst	| Batemans-Bay-Outreach	Ashfield	| Bega	Blackett	Bankstown	Bradbury	Armidale	Bateau-Bay	Bidwill	Albury	Airds	0.0
+
+Evolucion Hijo 2:
+
+Bankstown	Bradbury	| Bega	Bankstown	| Bidwill	Bathurst	Blackett	Batemans-Bay-Outreach	Bateau-Bay	Albury	Airds	Armidale	Bankstown	0.0
+
+Evolucion Hijo 2:
+
+Ashfield	Bradbury	| Bega	Bankstown	| Bidwill	Bathurst	Blackett	Batemans-Bay-Outreach	Bateau-Bay	Albury	Airds	Armidale	Ashfield	0.0
+
+Hijos con cromosomas correjidos:
+
+Airds	Bathurst	    | Batemans-Bay-Outreach	Ashfield	  | Bega	Blackett	Bankstown	Bradbury	Armidale	Bateau-Bay	Bidwill	Albury	Airds	0.0
+Ashfield	Bradbury	| Bega	Bankstown	Bidwill	Bathurst	| Blackett	Batemans-Bay-Outreach	Bateau-Bay	Albury	Airds	Armidale	Ashfield	0.0
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+minCutPoint: 0 maxCutPoint: 2
+
+Padres:
+
+Blackett	| Bateau-Bay	| Bidwill	Bankstown	Bathurst	Bega	Batemans-Bay-Outreach	Bradbury	Armidale	Airds	Ashfield	Albury	Blackett	122.16322787455692
+Bidwill	  | Bathurst	  | Bega	Bankstown	Bateau-Bay	Ashfield	Armidale	Airds	Batemans-Bay-Outreach	Blackett	Albury	Bradbury	Bidwill	126.29846428938865
+
+Hijos sin verificar:
+Blackett	| Bathurst	  | Bidwill	Bankstown	Bathurst	Bega	Batemans-Bay-Outreach	Bradbury	Armidale	Airds	Ashfield	Albury	Blackett	0.0
+Bidwill	  | Bateau-Bay	| Bega	Bankstown	Bateau-Bay	Ashfield	Armidale	Airds	Batemans-Bay-Outreach	Blackett	Albury	Bradbury	Bidwill	0.0
+
+Evolucion Hijo 1:
+Blackett	| Bathurst	  | Bidwill	Bankstown	Bateau-Bay	Bega	Batemans-Bay-Outreach	Bradbury	Armidale	Airds	Ashfield	Albury	Blackett	0.0
+
+Evolucion Hijo 2:
+Bidwill	  | Bateau-Bay	| Bega	Bankstown	Bathurst	Ashfield	Armidale	Airds	Batemans-Bay-Outreach	Blackett	Albury	Bradbury	Bidwill	0.0
+
+Hijos con cromosomas correjidos
+
+Blackett	| Bathurst	  | Bidwill	Bankstown	Bateau-Bay	Bega	Batemans-Bay-Outreach	Bradbury	Armidale	Airds	Ashfield	Albury	Blackett	0.0
+Bidwill	  | Bateau-Bay	| Bega	Bankstown	Bathurst	Ashfield	Armidale	Airds	Batemans-Bay-Outreach	Blackett	Albury	Bradbury	Bidwill	0.0

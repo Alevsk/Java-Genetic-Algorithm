@@ -1,0 +1,34 @@
+minCutPoint: 5 maxCutPoint: 9
+
+Padres
+
+Bankstown	Bidwill	Batemans-Bay-Outreach	Blackett	Bateau-Bay	Bradbury |	Albury	Armidale	Airds	                  | Bega	Bathurst	Ashfield	Bankstown	130.29708047465311
+Bidwill	Bankstown	Bateau-Bay	Airds	Bradbury	Albury                   |	Armidale	Batemans-Bay-Outreach	Ashfield	| Bathurst	Blackett	Bega	Bidwill	132.23679731500536
+
+Hijos
+
+Bankstown	Bidwill	Batemans-Bay-Outreach	Blackett	Bateau-Bay	Bradbury |	Armidale	Batemans-Bay-Outreach	Ashfield	| Bega	Bathurst	Ashfield	Bankstown	0.0
+Bidwill	Bankstown	Bateau-Bay	Airds	Bradbury                           |	Albury	Albury	Armidale	                | Airds	Bathurst	Blackett	Bega	Bidwill	0.0
+
+Ejemplo de cruce de individuos y correcion de errores.
+
+1 5 |2| 8 3 9 4 |6| 7 1
+8 2 |6| 1 9 4 7 |3| 5 8
+
+1 5 2 1 9 4 7 6 7 1 Error
+x . . - - - - . x x
+8 5 2 1 9 4 7 6 3 8 Valido
+
+
+
+8 2 6 8 3 9 4 3 5 8 Error
+x . . - - - - x . x
+1 2 6 8 3 9 4 7 5 1 Valido
+
+
+Pasos algoritmo
+
+1.- tomar los elementos del bloque extraido que se acaba de insertar al individuo y comparar de 1 x 1 con los elementos por debajo y encima del corte
+2.- Si se encuentra una o varias coincidencias (en el caso de que un elemento repetido fuera la ciudad de inicio y fin), buscar en orden un elemento del bloque original extraido y sustituirlo por el elemento repetido (siempre y cuando
+este elemento no exista en el nuevo bloque agregado)
+3.- Realizar el mismo proceso para los demas elementos que faltan del bloque de cromosomas recien agregado

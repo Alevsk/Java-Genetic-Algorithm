@@ -1,0 +1,34 @@
+minCutPoint: 6 maxCutPoint: 9
+
+Padres:
+
+Batemans-Bay-Outreach	Ashfield	Bateau-Bay	Bankstown	Armidale	Blackett	Bega	| Bathurst	Bidwill	| Bradbury Airds	Albury	Batemans-Bay-Outreach	120.68747174103011
+Airds	Bankstown	Albury	Armidale	Ashfield	Batemans-Bay-Outreach	Bathurst	    | Bega	Bateau-Bay	| Bidwill	Bradbury	Blackett	Airds	122.0081148734119
+
+Hijos sin verificar:
+Batemans-Bay-Outreach	Ashfield	Bateau-Bay	Bankstown	Armidale	Blackett	Bega	| Bega	Bateau-Bay	| Bradbury	Airds	Albury	Batemans-Bay-Outreach	0.0
+Airds	Bankstown	Albury	Armidale	Ashfield	Batemans-Bay-Outreach	Bathurst	    | Bathurst	Bidwill	| Bidwill	Bradbury	Blackett	Airds	0.0
+
+
+F1Extract = | Bathurst	Bidwill	|
+F2Extract = | Bega	Bateau-Bay	|
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cruza hijo 1:
+
+Batemans-Bay-Outreach	Ashfield	Bateau-Bay	Bankstown	Armidale	Blackett	Bega	    | Bega	Bateau-Bay	| Bradbury	Airds	Albury	Batemans-Bay-Outreach	0.0
+
+Batemans-Bay-Outreach	Ashfield	Bateau-Bay	Bankstown	Armidale	Blackett	Bathurst	| Bega	Bateau-Bay	| Bradbury	Airds	Albury	Batemans-Bay-Outreach	0.0
+
+Batemans-Bay-Outreach	Ashfield	Bidwill	Bankstown	Armidale	Blackett	Bathurst	    | Bega	Bateau-Bay	| Bradbury	Airds	Albury	Batemans-Bay-Outreach	0.0
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cruza hijo 2:
+
+Airds	Bankstown	Albury	Armidale	Ashfield	Batemans-Bay-Outreach	Bathurst  | Bathurst	Bidwill	| Bidwill	Bradbury	Blackett	Airds	0.0
+
+Airds	Bankstown	Albury	Armidale	Ashfield	Batemans-Bay-Outreach	     Bega	| Bathurst	Bidwill	| Bidwill	Bradbury	Blackett	Airds	0.0
+
+Airds	Bankstown	Albury	Armidale	Ashfield	Batemans-Bay-Outreach	     Bega	| Bathurst	Bidwill	| Bateau-Bay	Bradbury	Blackett	Airds	0.0
